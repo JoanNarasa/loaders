@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Chela+One|Mirza&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Chela One', cursive;
+    font-size: 18px;
+    line-height: 1.6;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    text-align: center;
+    width: 90%;
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-size: 20px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background: purple;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
